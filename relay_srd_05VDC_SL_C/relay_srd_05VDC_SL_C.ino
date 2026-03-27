@@ -7,9 +7,11 @@ pinMode(PIN, OUTPUT); // объявляем пин 3 как выход
 void loop() {
 digitalWrite(PIN, HIGH); // замыкаем реле
 
-delay(100); // ждем 3 секунды
+//delayMicroseconds(1000); // ждем 3 секунды
+delay(10);
 
 digitalWrite(PIN, LOW); // размыкаем реле
 
-delay(50); // ждем 1 секунду
+delayMicroseconds(10); // ждем 1 секунду
+//delay(10);
 }
