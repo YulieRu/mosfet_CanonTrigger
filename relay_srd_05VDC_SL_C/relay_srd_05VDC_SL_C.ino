@@ -1,4 +1,4 @@
-#define PIN 3
+#define PIN 5
 
 void setup() {
 pinMode(PIN, OUTPUT); // объявляем пин 3 как выход
@@ -9,11 +9,11 @@ digitalWrite(PIN, HIGH); // замыкаем реле
 
 //delayMicroseconds(30); // скважность
 
-delay(1000); 
+delay(50); 
 
 digitalWrite(PIN, LOW); 
 
 //delay(500);
-delayMicroseconds(10); // импульс
+delay(1000); // импульс
 
 }
